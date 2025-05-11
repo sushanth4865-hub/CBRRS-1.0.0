@@ -1,0 +1,136 @@
+// * {
+//   background-color: white;
+// }
+.main-header {
+  position: sticky;
+  top:0;
+  width: 100%;
+  z-index: 1000; /* keep it above other elements */
+  display: flex;
+  align-items: stretch;
+  justify-content: center;
+  gap: 100px;
+  padding: 5px 10px;
+  flex-wrap: wrap;
+  background-color: rgb(242, 243, 230);
+  box-shadow: 0 20px 4px rgba(132, 87, 87, 0.1); //box-shadow: offset-x offset-y blur-radius spread-radius color;
+  height: auto;
+  // max-height: 350px;
+}
+
+// .school-logo {
+//   display: flex;
+//   align-items: flex-end; /* aligns logo image to bottom */
+// }
+
+.school-logo img{
+  height: 200px;
+  width: auto;
+}
+
+.navigation {
+  display: flex;
+  align-items: center; /* center nav vertically */
+  // justify-content: center;
+  //position: center;
+  //flex-wrap: wrap;
+}
+
+.navigation-list {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 20px; /* space between items */
+  margin: 0;
+  padding: 0;
+  //align-items: center;
+}
+
+.navigation-list li a {
+  text-decoration: none;
+  font-weight: 600;
+  font-size: large;
+  color: #333;
+  transition: color 0.3s ease;
+  background-color: #eaba94;
+  border-radius: 10px;
+  padding: 20px 20px;
+}
+
+.navigation-list li a:hover {
+  color: #e8ddd5;
+  background-color: #411313;
+}
+
+// @media (max-width: 768px) {
+//   .navigation-list {
+//     flex-direction: column;
+//     align-items: flex-start;
+//     gap: 10px;
+//     // width: 100%;
+//     // margin-top: 20px;
+//   }
+//   .main-header {
+//     align-items: flex-start;
+//     width: 100%;
+//     gap: 10px;
+//   }
+// }
+.footer {
+  background-color: #507eab;
+  color: white;
+  padding: 20px 20px;
+  margin-top: 20px;
+}
+
+.footer .footer-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 200px
+}
+
+.footer-links,
+.footer-contact {
+  flex: 1;
+  min-width: 200px;
+}
+
+.footer-links h3,
+.footer-contact h3 {
+  font-size: 1.75rem;
+  margin-bottom: 15px;
+  color: #e9c8b0;
+}
+
+.footer-links ul {
+  list-style: none;
+  padding: 0;
+} 
+
+.footer-links ul li {
+  margin-bottom: 10px;
+}
+
+.footer .footer-links ul li a {
+  color: #cccccc;
+  text-decoration: none;
+  transition: color 0.3s;
+  font-size: 1.25rem;
+}
+
+.footer .footer-contact p {
+  color: #cccccc;
+  font-size: 1.25rem;
+}
+
+.footer .footer-links ul li a:hover {
+  color: #411313;
+  text-decoration: underline;
+}
+
+.footer .footer-links,
+.footer-contact p {
+  margin: 6px 0;
+  font-size: 0.95rem;
+}
