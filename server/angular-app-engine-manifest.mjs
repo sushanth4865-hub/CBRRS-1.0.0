@@ -1,6 +1,6 @@
 
 export default {
-  basePath: '/',
+  basePath: '/cbrrs-frontend',
   supportedLocales: {
   "en-US": ""
 },
