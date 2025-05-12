@@ -1,6 +1,6 @@
 
 export default {
-  basePath: 'https://sushanth4865-hub.github.io/cbrrs-frontend',
+  basePath: '/',
   supportedLocales: {
   "en-US": ""
 },
