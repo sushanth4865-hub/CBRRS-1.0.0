@@ -1,9 +1,9 @@
 {
   "routes": {
-    "/sushanth4865-hub/CBRRS-1.0.0": {},
-    "/sushanth4865-hub/CBRRS-1.0.0/academics": {},
-    "/sushanth4865-hub/CBRRS-1.0.0/admissions": {},
-    "/sushanth4865-hub/CBRRS-1.0.0/contact": {},
-    "/sushanth4865-hub/CBRRS-1.0.0/home": {}
+    "/cbrrs-frontend": {},
+    "/cbrrs-frontend/academics": {},
+    "/cbrrs-frontend/admissions": {},
+    "/cbrrs-frontend/contact": {},
+    "/cbrrs-frontend/home": {}
   }
 }

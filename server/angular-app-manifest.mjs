@@ -2,39 +2,39 @@
 export default {
   bootstrap: () => import('./main.server.mjs').then(m => m.default),
   inlineCriticalCss: true,
-  baseHref: 'https://github.com/sushanth4865-hub/CBRRS-1.0.0/',
+  baseHref: 'https://sushanth4865-hub.github.io/cbrrs-frontend/',
   locale: undefined,
   routes: [
   {
     "renderMode": 2,
-    "route": "/sushanth4865-hub/CBRRS-1.0.0"
+    "route": "/cbrrs-frontend"
   },
   {
     "renderMode": 2,
-    "route": "/sushanth4865-hub/CBRRS-1.0.0/home"
+    "route": "/cbrrs-frontend/home"
   },
   {
     "renderMode": 2,
-    "route": "/sushanth4865-hub/CBRRS-1.0.0/academics"
+    "route": "/cbrrs-frontend/academics"
   },
   {
     "renderMode": 2,
-    "route": "/sushanth4865-hub/CBRRS-1.0.0/admissions"
+    "route": "/cbrrs-frontend/admissions"
   },
   {
     "renderMode": 2,
-    "route": "/sushanth4865-hub/CBRRS-1.0.0/contact"
+    "route": "/cbrrs-frontend/contact"
   }
 ],
   entryPointToBrowserMapping: undefined,
   assets: {
-    'index.csr.html': {size: 3784, hash: '1d2c294b5629c390963e6a14b6706212dcd2991e9caa3472042bda41a84e7a5d', text: () => import('./assets-chunks/index_csr_html.mjs').then(m => m.default)},
-    'index.server.html': {size: 4297, hash: '8422e6c928b3a1b6699ab15b438c40f075156d22eebe580564868cceba26fdca', text: () => import('./assets-chunks/index_server_html.mjs').then(m => m.default)},
-    'index.html': {size: 23024, hash: 'bdfa84f8d7541a50cb6cdafc23c0df3c3fef2ff97bb44f4cf5894b876ec82769', text: () => import('./assets-chunks/index_html.mjs').then(m => m.default)},
-    'contact/index.html': {size: 10944, hash: 'bc730a0b08319de9243f43f5d88b2d004adb75c306b98842f5b549c7eb15fe87', text: () => import('./assets-chunks/contact_index_html.mjs').then(m => m.default)},
-    'home/index.html': {size: 23024, hash: 'bdfa84f8d7541a50cb6cdafc23c0df3c3fef2ff97bb44f4cf5894b876ec82769', text: () => import('./assets-chunks/home_index_html.mjs').then(m => m.default)},
-    'academics/index.html': {size: 21944, hash: '18e499718df7831191e213da859e4c01f8ede958e8db5f578ca853ae234366f7', text: () => import('./assets-chunks/academics_index_html.mjs').then(m => m.default)},
-    'admissions/index.html': {size: 10389, hash: '0b366a8957de54a730de8fd81ec15051cf9582c0275469c1b3270b69242c37bb', text: () => import('./assets-chunks/admissions_index_html.mjs').then(m => m.default)},
+    'index.csr.html': {size: 3786, hash: 'e1b4d54cbee8dec2d2281cf652be089d6b35cd4c5a97b902232b41e182e04642', text: () => import('./assets-chunks/index_csr_html.mjs').then(m => m.default)},
+    'index.server.html': {size: 4299, hash: '8ad9be64a5997e8de5c0771016141fc9e12c56cabc8b54689898130b67b1cc02', text: () => import('./assets-chunks/index_server_html.mjs').then(m => m.default)},
+    'home/index.html': {size: 23042, hash: '4aefbd318aea4363b18f275b5a0c6697a28323c2300c9abafaf092b813c83c04', text: () => import('./assets-chunks/home_index_html.mjs').then(m => m.default)},
+    'admissions/index.html': {size: 10407, hash: '2549602df5e95db2d0c215f905703c4bc95c8a79e92853c2a7de7660c9cdebb8', text: () => import('./assets-chunks/admissions_index_html.mjs').then(m => m.default)},
+    'academics/index.html': {size: 21962, hash: '36b7847982b6cc881968d7653993f8ec6d80a6580977c4350e1ff63ef3e29ab1', text: () => import('./assets-chunks/academics_index_html.mjs').then(m => m.default)},
+    'index.html': {size: 23042, hash: '4aefbd318aea4363b18f275b5a0c6697a28323c2300c9abafaf092b813c83c04', text: () => import('./assets-chunks/index_html.mjs').then(m => m.default)},
+    'contact/index.html': {size: 10962, hash: 'f04bac5027fb7ccb07da04325a366b8393d66ae945e84f29364202a100b47834', text: () => import('./assets-chunks/contact_index_html.mjs').then(m => m.default)},
     'styles-5INURTSO.css': {size: 0, hash: 'menYUTfbRu8', text: () => import('./assets-chunks/styles-5INURTSO_css.mjs').then(m => m.default)}
   },
 };
