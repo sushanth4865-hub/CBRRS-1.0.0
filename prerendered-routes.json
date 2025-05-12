@@ -1,9 +1,9 @@
 {
   "routes": {
-    "/cbrrs-frontend": {},
-    "/cbrrs-frontend/academics": {},
-    "/cbrrs-frontend/admissions": {},
-    "/cbrrs-frontend/contact": {},
-    "/cbrrs-frontend/home": {}
+    "/CBRRS-1.0.0": {},
+    "/CBRRS-1.0.0/academics": {},
+    "/CBRRS-1.0.0/admissions": {},
+    "/CBRRS-1.0.0/contact": {},
+    "/CBRRS-1.0.0/home": {}
   }
 }
